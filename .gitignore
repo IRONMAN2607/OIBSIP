@@ -1,0 +1,9 @@
+.ipynb_checkpoints/
+.virtual_documents/
+anaconda_projects/
+data/smsspamcollection.zip
+__pycache__/
+.venv/
+venv/
+*.py[cod]
+.DS_Store

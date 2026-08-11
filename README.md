@@ -1,38 +1,44 @@
-# Oasis Infobyte - Data Science Internship
+# OIBSIP - Data Science Internship Tasks
 
-This repository contains my solutions for the Oasis Infobyte Data Science internship tasks. Each project is kept in its own notebook so that the data preparation, exploration, modelling, and evaluation can be followed in one place.
+This repository contains my Oasis Infobyte Data Science internship task submissions. The project is organized in the requested per-task format: `OIBSIP_domain_taskno`.
 
-## Projects
+## Submission Folders
 
-| Task | Notebook | Focus |
+| Task | Folder | Title |
 | --- | --- | --- |
-| 1 | Iris Flower Classification | Comparing classifiers for iris species prediction |
-| 2 | Unemployment Analysis | Exploring unemployment trends in India |
-| 3 | Car Price Prediction | Estimating resale prices from vehicle details |
-| 4 | Email Spam Detection | Classifying SMS messages as spam or ham |
-| 5 | Sales Prediction | Estimating sales from advertising spend |
+| 1 | `OIBSIP_DataScience_task1` | Iris Flower Classification |
+| 2 | `OIBSIP_DataScience_task2` | Unemployment Analysis with Python |
+| 3 | `OIBSIP_DataScience_task3` | Car Price Prediction |
+| 4 | `OIBSIP_DataScience_task4` | Email Spam Detection |
+| 5 | `OIBSIP_DataScience_task5` | Sales Prediction |
 
-## Repository layout
+Each task folder includes:
 
-```text
-notebooks/  Source notebooks, organised by task
-data/       Local datasets used by a notebook (when available)
-outputs/    Executed notebook copies kept as a record of results
-```
+- A clear `README.md` with objective, steps performed, tools used, and outcome.
+- The source notebook under `notebook/`.
+- The executed notebook under `outputs/`.
+- The dataset under `data/` where applicable.
 
-## Running a notebook
+## Requirements
 
-Clone the repository, install the dependencies, then start Jupyter from the repository root:
+Install dependencies from the repository root:
 
 ```bash
 pip install -r requirements.txt
-jupyter notebook
 ```
 
-Open a notebook from `notebooks/` and run the cells in order. All required datasets are included in `data/`, so the notebooks run without downloading files. The loaders also support their documented online fallbacks if a dataset is removed locally.
+Then open the required notebook with Jupyter and run the cells in order.
 
-## Notes
+## Submission Checklist
 
-- Models use a fixed random seed where a train/test split is involved, so results are reproducible.
-- The results are intended as project work and exploratory analysis, not production predictions.
-- Notebook loaders find `data/` whether Jupyter is started from the repository root or from the `notebooks/` directory.
+For the final submission form, provide:
+
+- Name
+- Email
+- Domain: Data Science
+- Task title
+- GitHub repository link
+- Demo video link, if applicable
+- LinkedIn post link
+
+Make sure all GitHub, video, and LinkedIn links are public and accessible before submitting.

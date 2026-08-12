@@ -2,6 +2,8 @@
 
 This repository contains my Oasis Infobyte Data Science internship task submissions. The project is organized in the requested per-task format: `OIBSIP_domain_taskno`.
 
+All notebooks run with standard CPython; Anaconda is not required. They were tested with Python 3.14, and Python 3.11-3.14 is recommended.
+
 ## Submission Folders
 
 | Task | Folder | Title |
@@ -19,15 +21,54 @@ Each task folder includes:
 - The executed notebook under `outputs/`.
 - The dataset under `data/` where applicable.
 
-## Requirements
+## Run the notebooks
 
-Install dependencies from the repository root:
+Clone the repository and move into it:
+
+```bash
+git clone <your-repository-url>
+cd OIBSIP
+```
+
+Create and activate a virtual environment (recommended).
+
+Windows PowerShell:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+
+macOS/Linux:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+Install all dependencies from the repository root:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Then open the required notebook with Jupyter and run the cells in order.
+Start Jupyter from the repository root:
+
+```bash
+jupyter notebook
+```
+
+Open one of the source notebooks below and run its cells in order:
+
+| Task | Source notebook |
+| --- | --- |
+| 1 - Iris Flower Classification | `notebooks/task_1_iris_flower_classification.ipynb` |
+| 2 - Unemployment Analysis | `notebooks/task_2_unemployment_analysis.ipynb` |
+| 3 - Car Price Prediction | `notebooks/task_3_car_price_prediction.ipynb` |
+| 4 - Email Spam Detection | `notebooks/task_4_email_spam_detection.ipynb` |
+| 5 - Sales Prediction | `notebooks/task_5_sales_prediction.ipynb` |
+
+The required datasets are included in the repository. Make sure Jupyter is launched from the same activated virtual environment where you installed `requirements.txt`.
 
 ## Submission Checklist
 

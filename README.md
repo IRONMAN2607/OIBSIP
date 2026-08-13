@@ -1,12 +1,10 @@
-# OIBSIP - Data Science Internship Tasks
+# OIBSIP - Data Science Task Repository Workspace
 
-This repository contains my Oasis Infobyte Data Science internship task submissions. The project is organized in the requested per-task format: `OIBSIP_domain_taskno`.
+This workspace contains five separate Oasis Infobyte Data Science task folders. Each folder is prepared to be uploaded as its own public GitHub repository, and each repository should use the folder name as the GitHub repository name.
 
-All notebooks run with standard CPython; Anaconda is not required. They were tested with Python 3.14, and Python 3.11-3.14 is recommended.
+## Separate Repositories to Create
 
-## Submission Folders
-
-| Task | Folder | Title |
+| Task | GitHub repository name | Title |
 | --- | --- | --- |
 | 1 | `OIBSIP_DataScience_task1` | Iris Flower Classification |
 | 2 | `OIBSIP_DataScience_task2` | Unemployment Analysis with Python |
@@ -14,61 +12,47 @@ All notebooks run with standard CPython; Anaconda is not required. They were tes
 | 4 | `OIBSIP_DataScience_task4` | Email Spam Detection |
 | 5 | `OIBSIP_DataScience_task5` | Sales Prediction |
 
-Each task folder includes:
+## How to Publish
 
-- A clear `README.md` with objective, steps performed, tools used, and outcome.
-- The source notebook under `notebook/`.
-- The executed notebook under `outputs/`.
-- The dataset under `data/` where applicable.
+For each task, create a separate GitHub repository with the exact matching name above. Then upload only that task folder's contents to the matching repository.
 
-## Run the notebooks
-
-Clone the repository and move into it:
+Example for Task 1:
 
 ```bash
-git clone <your-repository-url>
-cd OIBSIP
+cd OIBSIP_DataScience_task1
+git init
+git add README.md requirements.txt .gitignore notebook outputs docs
+git commit -m "Add OIBSIP Data Science task 1"
+git branch -M main
+git remote add origin <your-task-1-repository-url>
+git push -u origin main
 ```
 
-Create and activate a virtual environment (recommended).
+Repeat the same process for each task folder with its own repository URL.
 
-Windows PowerShell:
+## Folder Contents
 
-```powershell
+Each standalone task folder includes:
+
+- `README.md` - objective, steps performed, tools used, outcome, and run instructions.
+- `requirements.txt` - dependencies for that task repository.
+- `.gitignore` - common Python/Jupyter ignored files.
+- `notebook/` - source notebook.
+- `outputs/` - executed notebook with results.
+- `data/` - dataset where needed.
+- `docs/report.md` - brief report template.
+
+## Running a Task Repository
+
+Inside any task folder:
+
+```bash
 python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-```
-
-macOS/Linux:
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
-
-Install all dependencies from the repository root:
-
-```bash
 pip install -r requirements.txt
-```
-
-Start Jupyter from the repository root:
-
-```bash
 jupyter notebook
 ```
 
-Open one of the source notebooks below and run its cells in order:
-
-| Task | Source notebook |
-| --- | --- |
-| 1 - Iris Flower Classification | `notebooks/task_1_iris_flower_classification.ipynb` |
-| 2 - Unemployment Analysis | `notebooks/task_2_unemployment_analysis.ipynb` |
-| 3 - Car Price Prediction | `notebooks/task_3_car_price_prediction.ipynb` |
-| 4 - Email Spam Detection | `notebooks/task_4_email_spam_detection.ipynb` |
-| 5 - Sales Prediction | `notebooks/task_5_sales_prediction.ipynb` |
-
-The required datasets are included in the repository. Make sure Jupyter is launched from the same activated virtual environment where you installed `requirements.txt`.
+Open the notebook inside `notebook/` and run all cells in order.
 
 ## Submission Checklist
 
@@ -78,8 +62,8 @@ For the final submission form, provide:
 - Email
 - Domain: Data Science
 - Task title
-- GitHub repository link
+- GitHub repository link for the specific task
 - Demo video link, if applicable
 - LinkedIn post link
 
-Make sure all GitHub, video, and LinkedIn links are public and accessible before submitting.
+Make sure all links are public and accessible before submitting.

@@ -54,16 +54,5 @@ jupyter notebook
 
 Open the notebook inside `notebook/` and run all cells in order.
 
-## Submission Checklist
-
-For the final submission form, provide:
-
-- Name
-- Email
-- Domain: Data Science
-- Task title
-- GitHub repository link for the specific task
-- Demo video link, if applicable
-- LinkedIn post link
-
-Make sure all links are public and accessible before submitting.
+## Linkedin Post:
+https://www.linkedin.com/posts/angad-mistry-b9a9812b5_offer-letter-from-oasis-infobyte-ugcPost-7493664759976837120-nOP7/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEvI0WYBUxBQqoR_4tnaCXym9uvXolHJ45w

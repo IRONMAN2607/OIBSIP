@@ -79,7 +79,4 @@ jupyter notebook
 Open `notebook/task_4_email_spam_detection.ipynb` and run all cells in order. The notebook reads the dataset from this repository's local `data/` folder.
 
 ## Demo Video
-Add your YouTube or LinkedIn demo video link here before submission.
-
-## LinkedIn Post
-Add your LinkedIn project post link here before submission.
+https://www.linkedin.com/posts/angad-mistry-b9a9812b5_datascience-python-jupyter-ugcPost-7493306902978920448-VIE9/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEvI0WYBUxBQqoR_4tnaCXym9uvXolHJ45w

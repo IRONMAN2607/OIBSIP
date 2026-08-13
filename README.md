@@ -6,29 +6,11 @@ This workspace contains five separate Oasis Infobyte Data Science task folders. 
 
 | Task | GitHub repository name | Title |
 | --- | --- | --- |
-| 1 | `OIBSIP_DataScience_task1` | Iris Flower Classification |
-| 2 | `OIBSIP_DataScience_task2` | Unemployment Analysis with Python |
-| 3 | `OIBSIP_DataScience_task3` | Car Price Prediction |
-| 4 | `OIBSIP_DataScience_task4` | Email Spam Detection |
-| 5 | `OIBSIP_DataScience_task5` | Sales Prediction |
-
-## How to Publish
-
-For each task, create a separate GitHub repository with the exact matching name above. Then upload only that task folder's contents to the matching repository.
-
-Example for Task 1:
-
-```bash
-cd OIBSIP_DataScience_task1
-git init
-git add README.md requirements.txt .gitignore notebook outputs docs
-git commit -m "Add OIBSIP Data Science task 1"
-git branch -M main
-git remote add origin <your-task-1-repository-url>
-git push -u origin main
-```
-
-Repeat the same process for each task folder with its own repository URL.
+| 1 | `DataScience-Task1-IrisFlowerClassification` | Iris Flower Classification |
+| 2 | `DataScience-Task2-UnemploymentAnalysis` | Unemployment Analysis with Python |
+| 3 | `DataScience-Task3-CarPricePrediction` | Car Price Prediction |
+| 4 | `DataScience-Task4-EmailSpamDetection` | Email Spam Detection |
+| 5 | `DataScience-Task5-SalesPrediction` | Sales Prediction |
 
 ## Folder Contents
 
